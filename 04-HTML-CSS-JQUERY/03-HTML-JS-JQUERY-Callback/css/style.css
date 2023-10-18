@@ -1,0 +1,83 @@
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Press+Start+2P&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Press+Start+2P&family=Roboto:wght@300&display=swap');
+body
+{
+    
+    margin: 0px;
+}
+
+
+body h1
+{
+    font-weight: 300;
+    margin: 20px 30px;
+}
+
+#main-header
+{
+    border-bottom: 2px solid #000;
+    border-bottom: 2px solid #000;
+    display: block-inline;
+    /* position: fixed;
+    width: 100%;
+    background: rgba(255, 255, 255, .9);
+    top: 0px; */
+}
+.profile-menu
+{
+    list-style: none;
+    float: right;
+    margin-bottom: 400px;
+}
+
+.profile-menu a
+{
+    padding: 35px;
+}
+
+.profile-submenu
+{
+    list-style: none;
+    padding: 0px;
+    border: 1px solid #aaa;
+    background: #fff;
+    box-shadow: 2px 2px 15px rgba(0, 0, 0, 3);
+    position: absolute;
+    letter-spacing: 0px;
+    display: none;
+}
+
+.profile-submenu :active
+{
+    display: block;
+}
+
+.profile-submenu a
+{
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    color: #333;
+    text-shadow: none;
+    font-weight: 600;
+    letter-spacing: 0px;
+}
+
+.profile-submenu a:hover
+{
+    background: #eee;
+}
+
+section
+{
+    max-width: 100%;
+    width: 900px;
+    margin: auto;
+}
+
+
+
+
+
+
