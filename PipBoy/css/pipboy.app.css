@@ -80,6 +80,7 @@ body ::after
     margin: 10px;
     bottom: 0px;
     width: calc(100% - 20px);
+    font-size: 25px;
 }
 
 .navbar-nav .navbar-item.active .nav-link 
@@ -135,4 +136,51 @@ body ::after
 .pip-footer.col-3
 {
     background: rgba(16, 255, 0, 0.15);
+}
+
+.center-image
+{
+    position: absolute;
+    margin: auto;
+    width: 100%;
+}
+
+.stat-bar
+{
+    width: 60px;
+    margin: auto;
+}
+
+#status
+{
+    max-width: 400px;
+    margin: auto;
+}
+
+.stat-bars > .row
+{
+    margin-bottom: 100px;
+}
+
+.stat-bars-2
+{
+    margin-top: 200px;
+}
+
+.stat-bars-3
+{
+    margin-top: 50px;
+    margin-left: 400px;
+}
+
+.stat-bars-4
+{
+    margin-left: 600px;
+    margin-top: -100px;
+}
+
+.stat-bars-5
+{
+    margin-left: 600px;
+    margin-top: -250px;
 }
